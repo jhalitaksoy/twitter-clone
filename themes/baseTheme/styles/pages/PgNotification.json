@@ -13,6 +13,48 @@
       "image": "gear.png",
       "imageFillType": "ASPECTFIT",
       "tintColor": "rgba( 76, 158, 235, 1 )"
+    },
+    "&-flexLayout17": {
+      "height": 44,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER"
+      }
+    },
+    "&-flAll": {
+      "flexProps": {
+        "flexGrow": 1,
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER"
+      },
+      "height": 44
+    },
+    "&-flMention": {
+      "flexProps": {
+        "flexGrow": 1,
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER"
+      },
+      "height": 44
+    },
+    "&-flexLayout21": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-listView1": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-flNoti": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

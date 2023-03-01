@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flTweet",
+			"hiddenComponent": true,
 			"id": "ffba-1a7a-2cd4-7391",
 			"props": {
 				"children": [

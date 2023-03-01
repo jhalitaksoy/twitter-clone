@@ -7,7 +7,10 @@
 			"props": {
 				"children": [
 					"beb5-6673-e255-35e2",
-					"e2e5-5020-c2f2-7d7c"
+					"e2e5-5020-c2f2-7d7c",
+					"d9fd-13d6-8ed6-582c",
+					"e5a4-f89a-c40a-f3ea",
+					"cfcd-5bab-52fc-a274"
 				],
 				"name": "pgNotification",
 				"orientation": "PORTRAIT",
@@ -135,6 +138,184 @@
 			},
 			"type": "ImageView",
 			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgNotification-flexLayout17",
+			"id": "d9fd-13d6-8ed6-582c",
+			"props": {
+				"children": [
+					"7cee-e6b8-1c55-6bc8",
+					"0e2a-f0ad-e313-9e2d"
+				],
+				"name": "flexLayout17",
+				"parent": "6880-33e7-860e-4fd8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgNotification-flAll",
+			"id": "7cee-e6b8-1c55-6bc8",
+			"oldName": "flAl",
+			"props": {
+				"children": [
+					"12ae-a07a-0319-7f02",
+					"1696-cfa1-7545-537a"
+				],
+				"name": "flAll",
+				"parent": "d9fd-13d6-8ed6-582c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .tabbartext",
+			"id": "12ae-a07a-0319-7f02",
+			"oldName": "lblall",
+			"props": {
+				"children": [],
+				"name": "lblAll",
+				"parent": "7cee-e6b8-1c55-6bc8",
+				"text": "All"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "All"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bottomLine",
+			"id": "1696-cfa1-7545-537a",
+			"oldName": "flexLayout20",
+			"props": {
+				"children": [],
+				"name": "bottomLineAll",
+				"parent": "7cee-e6b8-1c55-6bc8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgNotification-flMention",
+			"id": "0e2a-f0ad-e313-9e2d",
+			"oldName": "flexLayout20",
+			"props": {
+				"children": [
+					"f427-088c-4f2f-0098",
+					"efd6-6caf-928e-0e82"
+				],
+				"name": "flMention",
+				"parent": "d9fd-13d6-8ed6-582c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .tabbartext",
+			"id": "f427-088c-4f2f-0098",
+			"oldName": "label7",
+			"props": {
+				"children": [],
+				"name": "lblMention",
+				"parent": "0e2a-f0ad-e313-9e2d",
+				"text": "Mention"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Mention"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bottomLine",
+			"id": "efd6-6caf-928e-0e82",
+			"oldName": "flexLayout21",
+			"props": {
+				"children": [],
+				"name": "bottomLineMention",
+				"parent": "0e2a-f0ad-e313-9e2d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .line",
+			"id": "e5a4-f89a-c40a-f3ea",
+			"props": {
+				"children": [],
+				"name": "flexLayout18",
+				"parent": "6880-33e7-860e-4fd8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgNotification-flexLayout21",
+			"id": "cfcd-5bab-52fc-a274",
+			"oldName": "flAlll",
+			"props": {
+				"children": [
+					"ea5a-bf14-a692-76e9"
+				],
+				"name": "flAlllWraper",
+				"parent": "6880-33e7-860e-4fd8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView #pgNotification-listView1",
+			"id": "ea5a-bf14-a692-76e9",
+			"props": {
+				"children": [
+					"65a3-da01-278e-3ca2"
+				],
+				"itemCount": 5,
+				"name": "listView1",
+				"parent": "cfcd-5bab-52fc-a274",
+				"rowHeight": 255
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"rowHeight": 255
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"id": "65a3-da01-278e-3ca2",
+			"props": {
+				"children": [
+					"40e8-29d6-e47f-3599"
+				],
+				"name": "listViewItem1",
+				"parent": "ea5a-bf14-a692-76e9"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flNoti #pgNotification-flNoti",
+			"hiddenComponent": false,
+			"id": "40e8-29d6-e47f-3599",
+			"props": {
+				"children": [],
+				"name": "flNoti",
+				"parent": "65a3-da01-278e-3ca2"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flNoti",
+				"id": "2b5d-1b10-18b1-902b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
 		}
 	]
 }

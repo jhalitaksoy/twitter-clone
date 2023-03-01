@@ -1,0 +1,73 @@
+{
+  ".flNoti": {
+    "height": 255,
+    "&-flexLayout21": {
+      "width": 80,
+      "flexProps": {
+        "alignItems": "FLEX_END"
+      },
+      "height": 254
+    },
+    "flexProps": {
+      "alignItems": "STRETCH",
+      "flexDirection": "COLUMN"
+    },
+    "&-flexLayout22": {
+      "flexProps": {
+        "alignSelf": "STRETCH",
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "height": 50
+    },
+    "&-imageView4": {
+      "width": 24,
+      "height": 24,
+      "marginTop": 15,
+      "image": "feature.png",
+      "imageFillType": "ASPECTFIT",
+      "marginRight": 10
+    },
+    "&-imageView5": {
+      "width": 37,
+      "height": 37,
+      "borderRadius": 14,
+      "image": "profile2.png",
+      "imageFillType": "ASPECTFIT",
+      "flexProps": {
+        "alignSelf": "FLEX_END"
+      }
+    },
+    "&-flexLayout24": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": 254
+    },
+    "&-flexLayout25": {
+      "height": 9,
+      "width": 9
+    },
+    "&-imageView6": {
+      "image": "keyboardlayout_down.png",
+      "imageFillType": "ASPECTFIT",
+      "width": 12,
+      "height": 12,
+      "tintColor": "rgba( 189, 197, 205, 1 )",
+      "marginRight": 15,
+      "marginTop": 10
+    },
+    "&-textView1": {
+      "height": 170,
+      "marginTop": 10,
+      "textAlignment": "TOPLEFT",
+      "marginRight": 15
+    },
+    "&-flexLayout28": {
+      "flexProps": {
+        "flexDirection": "ROW"
+      },
+      "height": 254
+    }
+  }
+}

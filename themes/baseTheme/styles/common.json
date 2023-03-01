@@ -132,8 +132,26 @@
       }
     }
   },
+  ".tabbartext": {
+    "textColor": "rgba( 76, 158, 235, 1 )",
+    "font": {
+      "size": 16
+    },
+    "textAlignment": "MIDCENTER",
+    "height": 41
+  },
+  ".bottomLine": {
+    "backgroundColor": "rgba( 76, 158, 235, 1 )",
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "height": 2
+  },
   ".line": {
     "height": 1,
-    "backgroundColor": "rgba( 231, 216, 216, 1 )"
+    "backgroundColor": "rgba( 231, 216, 216, 1 )",
+    "flexProps": {
+      "alignSelf": "STRETCH"
+    }
   }
 }

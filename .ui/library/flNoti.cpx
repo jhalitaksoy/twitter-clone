@@ -1,0 +1,151 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flNoti",
+			"id": "2b5d-1b10-18b1-902b",
+			"props": {
+				"children": [
+					"8a45-5a5e-0a52-e39f",
+					"f245-f425-8b85-53ab"
+				],
+				"name": "flNoti",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 14,
+				"top": 268
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flNoti-flexLayout28",
+			"id": "8a45-5a5e-0a52-e39f",
+			"oldName": "flexLayout26",
+			"props": {
+				"children": [
+					"e2b1-3107-015a-a28b",
+					"34ff-f317-212e-32e7"
+				],
+				"name": "flexLayout28",
+				"parent": "2b5d-1b10-18b1-902b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flNoti-flexLayout21",
+			"id": "e2b1-3107-015a-a28b",
+			"props": {
+				"children": [
+					"7fdf-006f-3959-d089"
+				],
+				"name": "flexLayout21",
+				"parent": "8a45-5a5e-0a52-e39f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flNoti-imageView4",
+			"id": "7fdf-006f-3959-d089",
+			"props": {
+				"children": [],
+				"name": "imageView4",
+				"parent": "e2b1-3107-015a-a28b"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flNoti-flexLayout24",
+			"id": "34ff-f317-212e-32e7",
+			"oldName": "flexLayout22",
+			"props": {
+				"children": [
+					"a584-9a3c-d538-e26a",
+					"c999-4b85-4e22-5bc0"
+				],
+				"name": "flexLayout24",
+				"parent": "8a45-5a5e-0a52-e39f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flNoti-flexLayout22",
+			"id": "a584-9a3c-d538-e26a",
+			"oldName": "flexLayout22",
+			"props": {
+				"children": [
+					"b939-45de-29b0-fb18",
+					"9712-3091-c648-999d"
+				],
+				"name": "flexLayout23",
+				"parent": "34ff-f317-212e-32e7"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flNoti-imageView5",
+			"id": "b939-45de-29b0-fb18",
+			"oldName": "imageView4",
+			"props": {
+				"children": [],
+				"name": "imageView5",
+				"parent": "a584-9a3c-d538-e26a"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flNoti-imageView6",
+			"id": "9712-3091-c648-999d",
+			"oldName": "imageView4",
+			"props": {
+				"children": [],
+				"name": "imageView6",
+				"parent": "a584-9a3c-d538-e26a"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView .flNoti-textView1",
+			"id": "c999-4b85-4e22-5bc0",
+			"props": {
+				"children": [],
+				"html": "<span style=\"color: rgb(155, 119, 119); font-size: 16px; font-family: ios-Default-Regular; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 19px;\">In case you missed Saad Drusteer’s Tweet</span><div><span style=\"color: rgb(155, 119, 119); font-size: 16px; font-family: ios-Default-Regular; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 19px;\">🔥 Are you using WordPress and migrating to the JAMstack? I wrote up a case study about how Smashing Magazine moved to JAMstack and saw great performance improvements and better security. smashingdrusteer.com/2020/01/migrat...</span><br></div>",
+				"name": "textView1",
+				"parent": "34ff-f317-212e-32e7",
+				"text": "In case you missed Saad Drusteer’s Tweet\n🔥 Are you using WordPress and migrating to the JAMstack? I wrote up a case study about how Smashing Magazine moved to JAMstack and saw great performance improvements and better security. smashingdrusteer.com/2020/01/migrat...\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"color: rgb(155, 119, 119); font-size: 16px; font-family: ios-Default-Regular; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 19px;\">In case you missed Saad Drusteer’s Tweet</span><div><span style=\"color: rgb(155, 119, 119); font-size: 16px; font-family: ios-Default-Regular; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 19px;\">🔥 Are you using WordPress and migrating to the JAMstack? I wrote up a case study about how Smashing Magazine moved to JAMstack and saw great performance improvements and better security. smashingdrusteer.com/2020/01/migrat...</span><br></div>",
+				"text": "In case you missed Saad Drusteer’s Tweet\n🔥 Are you using WordPress and migrating to the JAMstack? I wrote up a case study about how Smashing Magazine moved to JAMstack and saw great performance improvements and better security. smashingdrusteer.com/2020/01/migrat...\n"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .line",
+			"id": "f245-f425-8b85-53ab",
+			"oldName": "flexLayout22",
+			"props": {
+				"children": [],
+				"name": "line23",
+				"parent": "2b5d-1b10-18b1-902b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}
