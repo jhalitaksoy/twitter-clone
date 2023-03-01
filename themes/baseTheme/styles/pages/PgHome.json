@@ -10,15 +10,18 @@
     "&-flexLayout2": {
       "width": 40,
       "height": 40,
-      "backgroundColor": "rgba( 150, 124, 124, 1 )",
-      "borderRadius": 20
+      "borderRadius": 20,
+      "flexProps": {
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      }
     },
     "&-headerBar": {
       "backgroundColor": "rgba( 255, 255, 255, 1 )"
     },
     "&-imageView2": {
-      "width": 30,
-      "height": 30,
+      "width": 22,
+      "height": 22,
       "image": "feature.png",
       "imageFillType": "ASPECTFIT"
     },
@@ -43,6 +46,30 @@
         "alignItems": "CENTER",
         "justifyContent": "CENTER"
       }
+    },
+    "&-flexLayout12": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-listView1": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-flTweet": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-imageView3": {
+      "width": 32,
+      "height": 32,
+      "image": "profile_icon.png",
+      "imageFillType": "ASPECTFIT"
     }
   }
 }

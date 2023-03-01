@@ -1,0 +1,124 @@
+{
+  ".flTweet": {
+    "height": 150,
+    "&-flexLayout4": {
+      "height": 150,
+      "flexProps": {
+        "flexDirection": "ROW"
+      }
+    },
+    "&-flexLayout5": {
+      "height": 30
+    },
+    "&-flexLayout6": {
+      "width": 100,
+      "height": 100
+    },
+    "&-flexLayout7": {
+      "height": 19,
+      "flexProps": {
+        "flexDirection": "COLUMN",
+        "alignItems": "STRETCH"
+      }
+    },
+    "&-flexLayout8": {
+      "width": 200,
+      "height": 50,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "CENTER"
+      }
+    },
+    "&-label1": {
+      "width": 100
+    },
+    "&-label2": {
+      "width": 100
+    },
+    "&-textView1": {
+      "height": 80
+    },
+    "&-flTweetTop": {
+      "height": 17
+    },
+    "&-flTweetProfileIcon": {
+      "width": 55,
+      "height": 55,
+      "borderRadius": 25,
+      "marginLeft": 20
+    },
+    "&-flTweetContentWrapper": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": 140,
+      "marginLeft": 5,
+      "marginTop": 5
+    },
+    "&-flexLayout9": {
+      "height": null,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "CENTER",
+        "justifyContent": "SPACE_BETWEEN",
+        "flexGrow": 1
+      },
+      "width": null
+    },
+    "&-flTweetBottom": {
+      "height": 14,
+      "flexProps": {
+        "alignSelf": "AUTO",
+        "flexDirection": "ROW"
+      },
+      "margin": 10
+    },
+    "&-flexLayout10": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout11": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout12": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "width": null
+    },
+    "&-replyIcon": {
+      "image": "reply.png"
+    },
+    "&-retweetIcon": {
+      "image": "retweet.png"
+    },
+    "&-likeIcon": {
+      "image": "like.png"
+    },
+    "&-shareIcon": {
+      "image": "share.png"
+    },
+    "&-icon1": {
+      "font": {
+        "family": "MaterialIcons",
+        "style": "Regular",
+        "italic": false,
+        "bold": false
+      },
+      "glyph": ""
+    },
+    "&-imgProfile": {
+      "width": 55,
+      "height": 55,
+      "borderRadius": 25
+    }
+  }
+}
