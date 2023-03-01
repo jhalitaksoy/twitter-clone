@@ -1,0 +1,32 @@
+{
+  ".bottomTabbar": {
+    "&-btbHome": {
+      "icon": {
+        "normal": "home2.png"
+      }
+    },
+    "&-btnSearch": {
+      "icon": {
+        "normal": "search.png",
+        "selected": "search.png"
+      }
+    },
+    "&-btbNotification": {
+      "icon": {
+        "normal": "notification.png",
+        "selected": "notification.png"
+      }
+    },
+    "&-btbMail": {
+      "icon": {
+        "normal": "mail.png",
+        "selected": "mail.png"
+      }
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "itemColor": {
+      "normal": "rgba( 104, 118, 132, 1 )",
+      "selected": "rgba( 76, 158, 235, 1 )"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+	"components": [
+		{
+			"className": ".sf-bottomTabbar .bottomTabbar",
+			"id": "b2ea-4a63-05cf-42cb",
+			"props": {
+				"children": [
+					"2b9e-5854-039e-7ce0",
+					"75f2-a1ea-6ec1-700f",
+					"d2d9-9d2d-0605-f00e",
+					"5011-33a3-c8f9-b57b"
+				],
+				"name": "bottomTabbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-btbHome",
+			"id": "2b9e-5854-039e-7ce0",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "btbHome",
+				"parent": "b2ea-4a63-05cf-42cb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-btnSearch",
+			"id": "75f2-a1ea-6ec1-700f",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "btnSearch",
+				"parent": "b2ea-4a63-05cf-42cb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-btbNotification",
+			"id": "d2d9-9d2d-0605-f00e",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "btbNotification",
+				"parent": "b2ea-4a63-05cf-42cb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-btbMail",
+			"id": "5011-33a3-c8f9-b57b",
+			"oldName": "tabBarItem2",
+			"props": {
+				"children": [],
+				"name": "btbMail",
+				"parent": "b2ea-4a63-05cf-42cb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		}
+	]
+}
