@@ -218,11 +218,11 @@
 				"children": [],
 				"name": "lblMention",
 				"parent": "0e2a-f0ad-e313-9e2d",
-				"text": "Mention"
+				"text": "Mentions"
 			},
 			"type": "Label",
 			"userProps": {
-				"text": "Mention"
+				"text": "Mentions"
 			}
 		},
 		{

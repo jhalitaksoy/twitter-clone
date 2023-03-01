@@ -2,7 +2,7 @@
   ".bottomTabbar": {
     "&-btbHome": {
       "icon": {
-        "normal": "home2.png",
+        "normal": "home_unselected.png",
         "selected": "home2.png"
       }
     },
@@ -15,13 +15,13 @@
     "&-btbNotification": {
       "icon": {
         "normal": "notification.png",
-        "selected": "notification.png"
+        "selected": "notification_selected.png"
       }
     },
     "&-btbMail": {
       "icon": {
         "normal": "mail.png",
-        "selected": "mail.png"
+        "selected": "mail_selected.png"
       }
     },
     "backgroundColor": "rgba( 255, 255, 255, 1 )",
