@@ -2,7 +2,7 @@
   ".flTweet": {
     "height": 150,
     "&-flexLayout4": {
-      "height": 150,
+      "height": 125,
       "flexProps": {
         "flexDirection": "ROW"
       }
@@ -30,20 +30,17 @@
       }
     },
     "&-label1": {
-      "textColor": "rgba( 3, 0, 0, 1 )",
-      "flexProps": {
-        "flexShrink": 1
-      }
+      "textColor": "rgba( 3, 0, 0, 1 )"
     },
     "&-label2": {
-      "width": 200,
       "textColor": "rgba( 104, 118, 132, 1 )",
       "font": {
         "size": 14
-      }
+      },
+      "marginLeft": 5
     },
     "&-textView1": {
-      "height": 80
+      "height": 75
     },
     "&-flTweetTop": {
       "height": 17
@@ -132,6 +129,11 @@
       "borderRadius": 25,
       "image": "profile1.png",
       "imageFillType": "ASPECTFIT"
+    },
+    "&-line": {
+      "height": 1,
+      "backgroundColor": "rgba( 231, 216, 216, 1 )",
+      "marginTop": 5
     }
   }
 }
