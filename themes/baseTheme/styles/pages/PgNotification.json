@@ -55,6 +55,25 @@
       "flex": {
         "positionType": 0
       }
+    },
+    "&-flexLayouta22": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 1 )"
+    },
+    "&-flTweet": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-listView2": {
+      "flexProps": {
+        "flexGrow": 1
+      }
     }
   }
 }

@@ -10,7 +10,8 @@
 					"e2e5-5020-c2f2-7d7c",
 					"d9fd-13d6-8ed6-582c",
 					"e5a4-f89a-c40a-f3ea",
-					"cfcd-5bab-52fc-a274"
+					"cfcd-5bab-52fc-a274",
+					"b704-8dbd-d56b-a79b"
 				],
 				"name": "pgNotification",
 				"orientation": "PORTRAIT",
@@ -250,6 +251,7 @@
 		},
 		{
 			"className": ".sf-flexLayout #pgNotification-flexLayout21",
+			"hiddenComponent": true,
 			"id": "cfcd-5bab-52fc-a274",
 			"oldName": "flAlll",
 			"props": {
@@ -272,11 +274,13 @@
 				"itemCount": 5,
 				"name": "listView1",
 				"parent": "cfcd-5bab-52fc-a274",
+				"refreshEnabled": false,
 				"rowHeight": 255
 			},
 			"type": "ListView",
 			"userProps": {
 				"itemCount": 5,
+				"refreshEnabled": false,
 				"rowHeight": 255
 			}
 		},
@@ -306,6 +310,77 @@
 				"page": "__library__",
 				"type": "flNoti",
 				"id": "2b5d-1b10-18b1-902b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgNotification-flexLayouta22",
+			"id": "b704-8dbd-d56b-a79b",
+			"oldName": "flexLayout22",
+			"props": {
+				"children": [
+					"ccaf-d664-e302-5a25"
+				],
+				"name": "flMentionWrapper",
+				"parent": "6880-33e7-860e-4fd8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView #pgNotification-listView2",
+			"id": "ccaf-d664-e302-5a25",
+			"props": {
+				"children": [
+					"6f33-8e7d-71c2-b1a0"
+				],
+				"itemCount": 5,
+				"name": "listView2",
+				"parent": "b704-8dbd-d56b-a79b",
+				"refreshEnabled": false,
+				"rowHeight": 160
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"refreshEnabled": false,
+				"rowHeight": 160
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"id": "6f33-8e7d-71c2-b1a0",
+			"props": {
+				"children": [
+					"7748-c49b-1c6b-b44d"
+				],
+				"name": "listViewItem2",
+				"parent": "ccaf-d664-e302-5a25"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flTweet #pgNotification-flTweet",
+			"hiddenComponent": false,
+			"id": "7748-c49b-1c6b-b44d",
+			"props": {
+				"children": [],
+				"name": "flTweet",
+				"parent": "6f33-8e7d-71c2-b1a0"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTweet",
+				"id": "ffba-1a7a-2cd4-7391"
 			},
 			"type": "FlexLayout",
 			"userProps": {

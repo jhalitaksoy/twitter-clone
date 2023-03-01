@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flTweet",
-			"hiddenComponent": true,
+			"hiddenComponent": false,
 			"id": "ffba-1a7a-2cd4-7391",
 			"props": {
 				"children": [
@@ -60,16 +60,13 @@
 			"props": {
 				"children": [],
 				"name": "label3",
-				"parent": "2b42-04ce-3c95-6029",
-				"text": "label3"
+				"parent": "2b42-04ce-3c95-6029"
 			},
 			"source": {
 				"page": "__library__"
 			},
 			"type": "Label",
-			"userProps": {
-				"text": "label3"
-			}
+			"userProps": {}
 		},
 		{
 			"className": ".sf-flexLayout .flTweet-flexLayout4",
@@ -192,12 +189,12 @@
 				"maxLines": 1,
 				"name": "label1",
 				"parent": "4182-595f-5685-4f10",
-				"text": "label1"
+				"text": "Mariane"
 			},
 			"type": "Label",
 			"userProps": {
 				"maxLines": 1,
-				"text": "label1"
+				"text": "Mariane"
 			}
 		},
 		{
@@ -207,11 +204,11 @@
 				"children": [],
 				"name": "label2",
 				"parent": "4182-595f-5685-4f10",
-				"text": "label2"
+				"text": "@marianeee ·1/21/20"
 			},
 			"type": "Label",
 			"userProps": {
-				"text": "label2"
+				"text": "@marianeee ·1/21/20"
 			}
 		},
 		{

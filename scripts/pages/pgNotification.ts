@@ -23,6 +23,14 @@ export default class PgNotification extends withDismissAndBackButton(PgNotificat
     this.isAll = !this.isAll;
     this.lblAll.textColor = this.isAll ? Color.create("#4C9EEB") : Color.create("#687684");
     this.lblMention.textColor = !this.isAll ? Color.create("#4C9EEB") : Color.create("#687684");
+    
+    this.flAlllWraper.flexGrow = this.isAll ? 1 : 0;
+    this.flAlllWraper.height = 0;
+    this.flAlllWraper.visible = this.isAll ? true : false;
+
+    this.flMentionWrapper.flexGrow = !this.isAll ? 1 : 0;
+    this.flMentionWrapper.height = 0;
+    this.flMentionWrapper.visible = !this.isAll ? true : false;
 
     this.bottomLineAll.backgroundColor = this.isAll ? Color.create("#4C9EEB") : Color.TRANSPARENT;
     this.bottomLineMention.backgroundColor = !this.isAll ? Color.create("#4C9EEB") : Color.TRANSPARENT;
