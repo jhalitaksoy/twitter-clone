@@ -56,56 +56,132 @@
 			"type": "StackRouter",
 			"isContainer": true,
 			"name": "btbHomeRoute",
-			"children": [],
+			"children": [
+				"3451d5e0-b5c7-4ff8-85bc-2f5bd4d78022"
+			],
 			"isDirty": false,
 			"props": {
 				"path": "btbHomeRoute",
 				"x": -95.77149087567568,
-				"y": 4.636211016954448
+				"y": 4.636211016954448,
+				"homeRoute": "home",
+				"to": "home"
 			},
 			"parent": "7b84c4be-1dae-49ef-9518-988bc54eb40a"
+		},
+		"3451d5e0-b5c7-4ff8-85bc-2f5bd4d78022": {
+			"id": "3451d5e0-b5c7-4ff8-85bc-2f5bd4d78022",
+			"type": "Route",
+			"isContainer": false,
+			"name": "home",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "home",
+				"x": -95.77149087567568,
+				"y": 124.63621101695445,
+				"page": "pgHome"
+			},
+			"parent": "52f94cb9-14f1-4a74-b498-cb6f3dbe4fca"
 		},
 		"15a7b2c5-b107-43a8-bda4-a95b1d4bc5ce": {
 			"id": "15a7b2c5-b107-43a8-bda4-a95b1d4bc5ce",
 			"type": "StackRouter",
 			"isContainer": true,
 			"name": "btbSearchRoute",
-			"children": [],
+			"children": [
+				"319a999b-a18d-4985-8e0f-9f84a753cc89"
+			],
 			"isDirty": false,
 			"props": {
 				"path": "btbSearchRoute",
 				"x": 112.82314556892982,
-				"y": 11.557022725499195
+				"y": 11.557022725499195,
+				"homeRoute": "search",
+				"to": "search"
 			},
 			"parent": "7b84c4be-1dae-49ef-9518-988bc54eb40a"
+		},
+		"319a999b-a18d-4985-8e0f-9f84a753cc89": {
+			"id": "319a999b-a18d-4985-8e0f-9f84a753cc89",
+			"type": "Route",
+			"isContainer": false,
+			"name": "search",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "search",
+				"x": 112.82314556892982,
+				"y": 131.5570227254992,
+				"page": "pgSearch"
+			},
+			"parent": "15a7b2c5-b107-43a8-bda4-a95b1d4bc5ce"
 		},
 		"dab3c472-3334-4514-9096-77553bc76140": {
 			"id": "dab3c472-3334-4514-9096-77553bc76140",
 			"type": "StackRouter",
 			"isContainer": true,
 			"name": "btbNotificationRoute",
-			"children": [],
+			"children": [
+				"eee8f6d9-5a1b-43d4-a0f8-dfc6b022c944"
+			],
 			"isDirty": false,
 			"props": {
 				"path": "btbNotificationRoute",
 				"x": 332.84798281581936,
-				"y": 6.882638423647052
+				"y": 6.882638423647052,
+				"homeRoute": "notification",
+				"to": "notification"
 			},
 			"parent": "7b84c4be-1dae-49ef-9518-988bc54eb40a"
+		},
+		"eee8f6d9-5a1b-43d4-a0f8-dfc6b022c944": {
+			"id": "eee8f6d9-5a1b-43d4-a0f8-dfc6b022c944",
+			"type": "Route",
+			"isContainer": false,
+			"name": "notification",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "notification",
+				"x": 332.84798281581936,
+				"y": 126.88263842364705,
+				"page": "pgNotification"
+			},
+			"parent": "dab3c472-3334-4514-9096-77553bc76140"
 		},
 		"1ca7b1f0-77d4-4845-a5e8-3cff6cdf199e": {
 			"id": "1ca7b1f0-77d4-4845-a5e8-3cff6cdf199e",
 			"type": "StackRouter",
 			"isContainer": true,
 			"name": "btbMailRoute",
-			"children": [],
+			"children": [
+				"3302b12f-2ef7-4e68-9771-92a0d9296f01"
+			],
 			"isDirty": false,
 			"props": {
 				"path": "btbMailRoute",
 				"x": 563.8906202902475,
-				"y": 8.783441206170451
+				"y": 8.783441206170451,
+				"homeRoute": "mail",
+				"to": "mail"
 			},
 			"parent": "7b84c4be-1dae-49ef-9518-988bc54eb40a"
+		},
+		"3302b12f-2ef7-4e68-9771-92a0d9296f01": {
+			"id": "3302b12f-2ef7-4e68-9771-92a0d9296f01",
+			"type": "Route",
+			"isContainer": false,
+			"name": "mail",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "mail",
+				"x": 563.8906202902475,
+				"y": 128.78344120617044,
+				"page": "pgMail"
+			},
+			"parent": "1ca7b1f0-77d4-4845-a5e8-3cff6cdf199e"
 		}
 	}
 }

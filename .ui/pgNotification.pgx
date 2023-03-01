@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "6880-33e7-860e-4fd8",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "pgNotification",
+				"parent": null,
+				"children": [
+					"beb5-6673-e255-35e2",
+					"e2e5-5020-c2f2-7d7c"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		{
+			"type": "StatusBar",
+			"id": "beb5-6673-e255-35e2",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "6880-33e7-860e-4fd8",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "e2e5-5020-c2f2-7d7c",
+			"userProps": {
+				"title": "pgNotification"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "6880-33e7-860e-4fd8",
+				"children": [],
+				"title": "pgNotification",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	],
+	"componentByID": {
+		"11a3-ca4b-6caf-e8c9": {
+			"type": "Page",
+			"id": "6880-33e7-860e-4fd8",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "pgNotification",
+				"parent": null,
+				"children": [
+					"beb5-6673-e255-35e2",
+					"e2e5-5020-c2f2-7d7c"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		"3684-ad7d-8b41-6210": {
+			"type": "StatusBar",
+			"id": "beb5-6673-e255-35e2",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "6880-33e7-860e-4fd8",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		"cab6-0770-0d7d-13a5": {
+			"type": "HeaderBar",
+			"id": "e2e5-5020-c2f2-7d7c",
+			"userProps": {
+				"title": "pgNotification"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "6880-33e7-860e-4fd8",
+				"children": [],
+				"title": "pgNotification",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	}
+}

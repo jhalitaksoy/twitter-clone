@@ -2,7 +2,8 @@
   ".bottomTabbar": {
     "&-btbHome": {
       "icon": {
-        "normal": "home2.png"
+        "normal": "home2.png",
+        "selected": "home2.png"
       }
     },
     "&-btnSearch": {

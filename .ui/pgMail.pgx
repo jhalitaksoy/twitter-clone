@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "a744-e9e4-ccc0-7492",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "pgMail",
+				"parent": null,
+				"children": [
+					"04d7-8fc7-4d2d-64ff",
+					"d594-d96d-65bd-951c"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		{
+			"type": "StatusBar",
+			"id": "04d7-8fc7-4d2d-64ff",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "a744-e9e4-ccc0-7492",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "d594-d96d-65bd-951c",
+			"userProps": {
+				"title": "pgMail"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "a744-e9e4-ccc0-7492",
+				"children": [],
+				"title": "pgMail",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	],
+	"componentByID": {
+		"f53d-0023-da95-c41f": {
+			"type": "Page",
+			"id": "a744-e9e4-ccc0-7492",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "pgMail",
+				"parent": null,
+				"children": [
+					"04d7-8fc7-4d2d-64ff",
+					"d594-d96d-65bd-951c"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		"9f83-2839-3221-e297": {
+			"type": "StatusBar",
+			"id": "04d7-8fc7-4d2d-64ff",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "a744-e9e4-ccc0-7492",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		"4d6c-b572-29c4-b81f": {
+			"type": "HeaderBar",
+			"id": "d594-d96d-65bd-951c",
+			"userProps": {
+				"title": "pgMail"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "a744-e9e4-ccc0-7492",
+				"children": [],
+				"title": "pgMail",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	}
+}
