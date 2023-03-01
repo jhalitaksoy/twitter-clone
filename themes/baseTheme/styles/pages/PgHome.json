@@ -1,0 +1,48 @@
+{
+  "#pgHome": {
+    "&-flexLayout1": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_BETWEEN",
+        "alignItems": "CENTER"
+      }
+    },
+    "&-flexLayout2": {
+      "width": 40,
+      "height": 40,
+      "backgroundColor": "rgba( 150, 124, 124, 1 )",
+      "borderRadius": 20
+    },
+    "&-headerBar": {
+      "backgroundColor": "rgba( 255, 255, 255, 1 )"
+    },
+    "&-imageView2": {
+      "width": 30,
+      "height": 30,
+      "image": "feature.png",
+      "imageFillType": "ASPECTFIT"
+    },
+    "&-imageView1": {
+      "height": 30,
+      "image": "twiter.png",
+      "imageFillType": "ASPECTFIT",
+      "width": 30
+    },
+    "&-flexLayout3": {
+      "width": 40,
+      "height": 40,
+      "flexProps": {
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      }
+    },
+    "&-flexLayout4": {
+      "width": 40,
+      "height": 40,
+      "flexProps": {
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      }
+    }
+  }
+}

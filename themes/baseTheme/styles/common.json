@@ -95,5 +95,13 @@
     "flexProps": {
       "justifyContent": "CENTER"
     }
+  },
+  ".my": {
+    "&-statusbar": {
+      "android": {
+        "color": "rgba( 255, 255, 255, 1 )"
+      },
+      "style": "DEFAULT"
+    }
   }
 }
