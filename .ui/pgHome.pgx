@@ -158,13 +158,13 @@
 				"name": "listView1",
 				"parent": "b473-a808-e3db-e0e9",
 				"refreshEnabled": false,
-				"rowHeight": 150
+				"rowHeight": 160
 			},
 			"type": "ListView",
 			"userProps": {
 				"itemCount": 10,
 				"refreshEnabled": false,
-				"rowHeight": 150
+				"rowHeight": 160
 			}
 		},
 		{

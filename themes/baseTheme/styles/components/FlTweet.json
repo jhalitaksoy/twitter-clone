@@ -1,6 +1,6 @@
 {
   ".flTweet": {
-    "height": 150,
+    "height": 160,
     "&-flexLayout4": {
       "height": 125,
       "flexProps": {
@@ -43,7 +43,13 @@
       "height": 75
     },
     "&-flTweetTop": {
-      "height": 17
+      "height": 17,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "CENTER",
+        "justifyContent": "FLEX_START"
+      },
+      "marginTop": 10
     },
     "&-flTweetProfileIcon": {
       "width": 55,
@@ -134,6 +140,23 @@
       "height": 1,
       "backgroundColor": "rgba( 231, 216, 216, 1 )",
       "marginTop": 5
+    },
+    "&-imageView3": {
+      "width": 12,
+      "height": 12,
+      "marginLeft": 62,
+      "marginRight": 5
+    },
+    "&-label3": {
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "font": {
+        "size": 15,
+        "style": "Regular"
+      },
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": 50
     }
   }
 }

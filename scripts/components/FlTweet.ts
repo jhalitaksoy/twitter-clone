@@ -10,11 +10,21 @@ export default class FlTweet extends FlTweetDesign {
   _subTitle: string;
   _text: string;
   _icon: string;
+  _liked: boolean;
+
+  private _replyCount: string;
+  private _retweetCount: string;
+  private _likeCount: string;
+
+  public onLikePress = () => {}
 
   constructor(props?: any, pageName?: string) {
     // Initalizes super class for this scope
     super(props);
     this.pageName = pageName;
+    this.likeIcon.onTouchEnded = () => {
+      this.onLikePress();
+    }
   }
   
   public get topTitle() : string {
@@ -22,6 +32,7 @@ export default class FlTweet extends FlTweetDesign {
   }
   public set topTitle(value : string) {
     this._topTitle = value;
+    this.label3.text = value;
   }
   
   public get topIcon() : string {
@@ -29,6 +40,7 @@ export default class FlTweet extends FlTweetDesign {
   }
   public set topIcon(value : string) {
     this._topIcon = value;
+    this.imageView3.image = value;
   }
 
   public get title() : string {
@@ -61,6 +73,36 @@ export default class FlTweet extends FlTweetDesign {
   public set icon(value : string) {
     this._icon = value;
     this.imgProfile.image = value;
+  }
+
+  public get replyCount(): string {
+      return this._replyCount;
+  }
+  public set replyCount(value: string) {
+      this._replyCount = value;
+      this.lblReply.text= value;
+  }
+  public get retweetCount(): string {
+    return this._retweetCount;
+  }
+  public set retweetCount(value: string) {
+    this._retweetCount = value;
+    this.lblRetweet.text= value;
+  }
+  public get likeCount(): string {
+    return this._likeCount;
+  }
+  public set likeCount(value: string) {
+    this._likeCount = value;
+    this.lblLikes.text= value;
+  }
+
+  public get liked(): boolean {
+    return this._liked;
+  }
+  public set liked(value: boolean) {
+    this._liked = value;
+    this.likeIcon.image = value ? "images://like_filled.png" : "images://like.png";
   }
 
   // TODO: repy, retweet and like count 
