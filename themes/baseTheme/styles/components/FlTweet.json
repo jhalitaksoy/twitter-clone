@@ -22,18 +22,25 @@
       }
     },
     "&-flexLayout8": {
-      "width": 200,
       "height": 50,
       "flexProps": {
         "flexDirection": "ROW",
-        "alignItems": "CENTER"
+        "alignItems": "CENTER",
+        "flexGrow": 1
       }
     },
     "&-label1": {
-      "width": 100
+      "textColor": "rgba( 3, 0, 0, 1 )",
+      "flexProps": {
+        "flexShrink": 1
+      }
     },
     "&-label2": {
-      "width": 100
+      "width": 200,
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "font": {
+        "size": 14
+      }
     },
     "&-textView1": {
       "height": 80
@@ -45,7 +52,9 @@
       "width": 55,
       "height": 55,
       "borderRadius": 25,
-      "marginLeft": 20
+      "marginLeft": 15,
+      "marginTop": 5,
+      "marginRight": 5
     },
     "&-flTweetContentWrapper": {
       "flexProps": {
@@ -111,14 +120,18 @@
         "family": "MaterialIcons",
         "style": "Regular",
         "italic": false,
-        "bold": false
+        "bold": false,
+        "size": 24
       },
-      "glyph": ""
+      "glyph": "",
+      "textColor": "rgba( 189, 197, 205, 1 )"
     },
     "&-imgProfile": {
       "width": 55,
       "height": 55,
-      "borderRadius": 25
+      "borderRadius": 25,
+      "image": "profile1.png",
+      "imageFillType": "ASPECTFIT"
     }
   }
 }

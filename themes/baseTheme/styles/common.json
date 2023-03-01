@@ -113,7 +113,12 @@
       },
       "&-text": {
         "width": 50,
-        "height": 50
+        "height": 20,
+        "textColor": "rgba( 104, 118, 132, 1 )",
+        "font": {
+          "size": 12
+        },
+        "marginLeft": 5
       },
       "&-action": {
         "flexProps": {

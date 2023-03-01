@@ -16,8 +16,8 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
-				"left": 7.14,
-				"top": 64.29
+				"left": 7,
+				"top": 63
 			}
 		},
 		{
@@ -153,12 +153,14 @@
 			"id": "1bab-9b55-8bfb-504d",
 			"props": {
 				"children": [],
+				"maxLines": 1,
 				"name": "label1",
 				"parent": "4182-595f-5685-4f10",
 				"text": "label1"
 			},
 			"type": "Label",
 			"userProps": {
+				"maxLines": 1,
 				"text": "label1"
 			}
 		},
