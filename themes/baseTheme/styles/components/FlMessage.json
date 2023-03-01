@@ -66,7 +66,8 @@
         "flexGrow": 1
       },
       "height": 80,
-      "marginTop": 9
+      "marginTop": 9,
+      "marginRight": 10
     }
   }
 }
