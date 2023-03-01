@@ -7,7 +7,10 @@
 			"props": {
 				"children": [
 					"04d7-8fc7-4d2d-64ff",
-					"d594-d96d-65bd-951c"
+					"d594-d96d-65bd-951c",
+					"4dbb-8941-2889-a9d1",
+					"9824-ddad-4a34-996a",
+					"a44e-e11e-e34d-76ba"
 				],
 				"name": "pgMail",
 				"orientation": "PORTRAIT",
@@ -135,6 +138,125 @@
 			},
 			"type": "ImageView",
 			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgMail-flexLayout5",
+			"id": "4dbb-8941-2889-a9d1",
+			"props": {
+				"children": [
+					"9e66-f3e9-fa80-5507"
+				],
+				"name": "flexLayout5",
+				"parent": "a744-e9e4-ccc0-7492"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgMail-flexLayout6",
+			"id": "9e66-f3e9-fa80-5507",
+			"props": {
+				"children": [
+					"7922-762f-51b0-b290",
+					"ef76-43ba-3309-666c"
+				],
+				"name": "flexLayout6",
+				"parent": "4dbb-8941-2889-a9d1"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgMail-imageView1",
+			"id": "7922-762f-51b0-b290",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "9e66-f3e9-fa80-5507"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgMail-label1",
+			"id": "ef76-43ba-3309-666c",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "9e66-f3e9-fa80-5507",
+				"text": "Search for people and groups"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Search for people and groups"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .line",
+			"id": "9824-ddad-4a34-996a",
+			"oldName": "flexLayout7",
+			"props": {
+				"children": [],
+				"name": "lien45",
+				"parent": "a744-e9e4-ccc0-7492"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView #pgMail-listView1",
+			"id": "a44e-e11e-e34d-76ba",
+			"props": {
+				"children": [
+					"3858-7d8a-2507-69d4"
+				],
+				"itemCount": 5,
+				"name": "listView1",
+				"parent": "a744-e9e4-ccc0-7492",
+				"rowHeight": 90
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"rowHeight": 90
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"id": "3858-7d8a-2507-69d4",
+			"props": {
+				"children": [
+					"8f23-a81b-6f80-cfe9"
+				],
+				"name": "listViewItem1",
+				"parent": "a44e-e11e-e34d-76ba"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flMessage #pgMail-flMessage",
+			"hiddenComponent": false,
+			"id": "8f23-a81b-6f80-cfe9",
+			"props": {
+				"children": [],
+				"name": "flMessage",
+				"parent": "3858-7d8a-2507-69d4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flMessage",
+				"id": "638b-959f-f8b2-3548"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
 		}
 	]
 }

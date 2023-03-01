@@ -1,0 +1,53 @@
+{
+  "#pgMail": {
+    "&-flexLayout5": {
+      "height": 64,
+      "flexProps": {
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER"
+      }
+    },
+    "&-flexLayout6": {
+      "height": 32,
+      "backgroundColor": "rgba( 231, 236, 240, 1 )",
+      "borderRadius": 16,
+      "marginLeft": 10,
+      "marginRight": 10,
+      "flexProps": {
+        "justifyContent": "FLEX_START",
+        "flexDirection": "ROW",
+        "alignItems": "CENTER"
+      }
+    },
+    "&-label1": {
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "font": {
+        "style": "Regular"
+      }
+    },
+    "&-imageView1": {
+      "width": 13,
+      "height": 13,
+      "imageFillType": "ASPECTFIT",
+      "image": "search.png",
+      "marginLeft": 10,
+      "marginRight": 10
+    },
+    "&-listView1": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-flMessage": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

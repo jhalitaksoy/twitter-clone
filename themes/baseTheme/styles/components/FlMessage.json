@@ -1,0 +1,72 @@
+{
+  ".flMessage": {
+    "flexProps": {
+      "flexDirection": "COLUMN",
+      "alignItems": "STRETCH"
+    },
+    "&-imageView1": {
+      "width": 55,
+      "height": 55,
+      "image": "profile4.png",
+      "imageFillType": "ASPECTFIT",
+      "marginLeft": 20
+    },
+    "&-flexLayout7": {
+      "flexProps": {
+        "flexGrow": 1,
+        "alignSelf": "STRETCH"
+      },
+      "marginLeft": 5
+    },
+    "&-flexLayout8": {
+      "height": 20,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "FLEX_END",
+        "justifyContent": "SPACE_BETWEEN"
+      }
+    },
+    "&-label2": {
+      "font": {
+        "size": 16,
+        "style": "Regular"
+      },
+      "textColor": "rgba( 104, 118, 132, 1 )"
+    },
+    "&-label1": {
+      "height": 20,
+      "textColor": "rgba( 5, 0, 0, 1 )"
+    },
+    "&-label3": {
+      "height": 20,
+      "marginLeft": 5,
+      "textColor": "rgba( 189, 164, 164, 1 )"
+    },
+    "&-flexLayout9": {
+      "width": 200,
+      "height": 20,
+      "flexProps": {
+        "flexDirection": "ROW"
+      }
+    },
+    "&-label67": {
+      "height": 20,
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "width": 75,
+      "textAlignment": "MIDRIGHT",
+      "font": {
+        "style": "Regular",
+        "size": 15
+      }
+    },
+    "height": 90,
+    "&-flexLayout56": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "flexGrow": 1
+      },
+      "height": 80,
+      "marginTop": 9
+    }
+  }
+}

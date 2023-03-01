@@ -1,0 +1,164 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flMessage",
+			"id": "638b-959f-f8b2-3548",
+			"props": {
+				"children": [
+					"e652-67a0-dc0e-58f5",
+					"222f-c2b2-b259-fa5c"
+				],
+				"name": "flMessage",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 15,
+				"top": 541
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flMessage-flexLayout56",
+			"id": "e652-67a0-dc0e-58f5",
+			"props": {
+				"children": [
+					"a2f7-3425-6f76-3449",
+					"10dd-4aa3-329d-81d2"
+				],
+				"name": "flexLayout1",
+				"parent": "638b-959f-f8b2-3548"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flMessage-imageView1",
+			"id": "a2f7-3425-6f76-3449",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "e652-67a0-dc0e-58f5"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flMessage-flexLayout7",
+			"id": "10dd-4aa3-329d-81d2",
+			"props": {
+				"children": [
+					"47e3-ba3b-5e09-d9b8",
+					"529a-fbac-501a-ad51"
+				],
+				"name": "flexLayout7",
+				"parent": "e652-67a0-dc0e-58f5"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flMessage-flexLayout8",
+			"id": "47e3-ba3b-5e09-d9b8",
+			"oldName": "flexLayout7",
+			"props": {
+				"children": [
+					"0597-f971-8b7b-10d3",
+					"d009-bbf8-7c5d-10eb"
+				],
+				"name": "flexLayout8",
+				"parent": "10dd-4aa3-329d-81d2"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flMessage-flexLayout9",
+			"id": "0597-f971-8b7b-10d3",
+			"props": {
+				"children": [
+					"b231-5cbe-4409-1195",
+					"39fb-5e87-7fd1-6852"
+				],
+				"name": "flexLayout7",
+				"parent": "47e3-ba3b-5e09-d9b8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flMessage-label1",
+			"id": "b231-5cbe-4409-1195",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "0597-f971-8b7b-10d3",
+				"text": "karennne"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "karennne"
+			}
+		},
+		{
+			"className": ".sf-label .flMessage-label3",
+			"id": "39fb-5e87-7fd1-6852",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "0597-f971-8b7b-10d3",
+				"text": "@karennne"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "@karennne"
+			}
+		},
+		{
+			"className": ".sf-label .flMessage-label67",
+			"id": "d009-bbf8-7c5d-10eb",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "47e3-ba3b-5e09-d9b8",
+				"text": "12/2/19"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "12/2/19"
+			}
+		},
+		{
+			"className": ".sf-label .flMessage-label2",
+			"id": "529a-fbac-501a-ad51",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "label2",
+				"parent": "10dd-4aa3-329d-81d2",
+				"text": "You: I would greatly appreciate if you could retweet this if you think its worthy :)"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "You: I would greatly appreciate if you could retweet this if you think its worthy :)"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .line",
+			"id": "222f-c2b2-b259-fa5c",
+			"props": {
+				"children": [],
+				"name": "flexLayout1_1",
+				"parent": "638b-959f-f8b2-3548"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}
