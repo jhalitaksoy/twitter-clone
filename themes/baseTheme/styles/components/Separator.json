@@ -1,7 +1,7 @@
 {
   ".separator": {
     "backgroundColor": "${separator}",
-    "width": null,
+    "width": 408.33,
     ".relative": {
       "height": 1,
       "flexProps": {
@@ -13,6 +13,7 @@
       "flexProps": {
         "positionType": "ABSOLUTE"
       }
-    }
+    },
+    "height": 88.1
   }
 }
