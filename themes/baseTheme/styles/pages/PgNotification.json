@@ -1,0 +1,18 @@
+{
+  "#pgNotification": {
+    "&-flexLayout3": {
+      "width": 200
+    },
+    "&-label3": {
+      "textColor": "rgba( 5, 0, 0, 1 )",
+      "font": {
+        "size": 18
+      }
+    },
+    "&-imageView2": {
+      "image": "gear.png",
+      "imageFillType": "ASPECTFIT",
+      "tintColor": "rgba( 76, 158, 235, 1 )"
+    }
+  }
+}

@@ -1,98 +1,140 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "6880-33e7-860e-4fd8",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "6880-33e7-860e-4fd8",
+			"initialized": true,
 			"props": {
-				"name": "pgNotification",
-				"parent": null,
 				"children": [
 					"beb5-6673-e255-35e2",
 					"e2e5-5020-c2f2-7d7c"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "beb5-6673-e255-35e2",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "6880-33e7-860e-4fd8",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "e2e5-5020-c2f2-7d7c",
-			"userProps": {
-				"title": "pgNotification"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "6880-33e7-860e-4fd8",
-				"children": [],
-				"title": "pgNotification",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"11a3-ca4b-6caf-e8c9": {
-			"type": "Page",
-			"id": "6880-33e7-860e-4fd8",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "pgNotification",
-				"parent": null,
-				"children": [
-					"beb5-6673-e255-35e2",
-					"e2e5-5020-c2f2-7d7c"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"3684-ad7d-8b41-6210": {
-			"type": "StatusBar",
-			"id": "beb5-6673-e255-35e2",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "6880-33e7-860e-4fd8",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"cab6-0770-0d7d-13a5": {
-			"type": "HeaderBar",
-			"id": "e2e5-5020-c2f2-7d7c",
-			"userProps": {
-				"title": "pgNotification"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar .my-statusbar",
+			"id": "beb5-6673-e255-35e2",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "6880-33e7-860e-4fd8"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar .my-headerbar",
+			"id": "e2e5-5020-c2f2-7d7c",
+			"props": {
+				"children": [
+					"46c0-9ddc-9a08-1a0b"
+				],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "6880-33e7-860e-4fd8",
-				"children": [],
-				"title": "pgNotification",
-				"visible": true,
-				"isRemovable": false
+				"title": "pgNotification"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgNotification"
 			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout1",
+			"id": "46c0-9ddc-9a08-1a0b",
+			"props": {
+				"children": [
+					"9fec-482a-4153-8c95",
+					"c620-6456-4df4-7a3a",
+					"67ce-541d-b3bc-9291"
+				],
+				"name": "flexLayout1",
+				"parent": "e2e5-5020-c2f2-7d7c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout2",
+			"id": "9fec-482a-4153-8c95",
+			"props": {
+				"children": [
+					"6882-cb2f-b6d9-d506"
+				],
+				"name": "flexLayout2",
+				"parent": "46c0-9ddc-9a08-1a0b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imageView3",
+			"id": "6882-cb2f-b6d9-d506",
+			"props": {
+				"children": [],
+				"name": "imageView3",
+				"parent": "9fec-482a-4153-8c95"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout3 #pgNotification-flexLayout3",
+			"id": "c620-6456-4df4-7a3a",
+			"props": {
+				"children": [
+					"b310-3033-05a3-aa24"
+				],
+				"name": "flexLayout3",
+				"parent": "46c0-9ddc-9a08-1a0b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgNotification-label3",
+			"id": "b310-3033-05a3-aa24",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "c620-6456-4df4-7a3a",
+				"text": "Notifications"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Notifications"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout4",
+			"id": "67ce-541d-b3bc-9291",
+			"props": {
+				"children": [
+					"1111-9323-037b-ccb7"
+				],
+				"name": "flexLayout4",
+				"parent": "46c0-9ddc-9a08-1a0b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imageView2 #pgNotification-imageView2",
+			"id": "1111-9323-037b-ccb7",
+			"props": {
+				"children": [],
+				"name": "imageView2",
+				"parent": "67ce-541d-b3bc-9291"
+			},
+			"type": "ImageView",
+			"userProps": {}
 		}
-	}
+	]
 }

@@ -1,0 +1,35 @@
+{
+  "#pgSearch": {
+    "&-flexLayout13": {
+      "flexProps": {
+        "flexGrow": 1,
+        "alignSelf": "STRETCH",
+        "flexDirection": "ROW",
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      },
+      "marginLeft": 15,
+      "marginRight": 15,
+      "backgroundColor": "rgba( 231, 236, 240, 1 )",
+      "borderRadius": 20
+    },
+    "&-flexLayout3": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-imageView4": {
+      "width": 13,
+      "height": 13,
+      "imageFillType": "ASPECTFIT",
+      "image": "search.png"
+    },
+    "&-label3": {
+      "marginLeft": 5,
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "font": {
+        "style": "Regular"
+      }
+    }
+  }
+}

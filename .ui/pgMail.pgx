@@ -1,98 +1,140 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "a744-e9e4-ccc0-7492",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "a744-e9e4-ccc0-7492",
+			"initialized": true,
 			"props": {
-				"name": "pgMail",
-				"parent": null,
 				"children": [
 					"04d7-8fc7-4d2d-64ff",
 					"d594-d96d-65bd-951c"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "04d7-8fc7-4d2d-64ff",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "a744-e9e4-ccc0-7492",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "d594-d96d-65bd-951c",
-			"userProps": {
-				"title": "pgMail"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "a744-e9e4-ccc0-7492",
-				"children": [],
-				"title": "pgMail",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"f53d-0023-da95-c41f": {
-			"type": "Page",
-			"id": "a744-e9e4-ccc0-7492",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "pgMail",
-				"parent": null,
-				"children": [
-					"04d7-8fc7-4d2d-64ff",
-					"d594-d96d-65bd-951c"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"9f83-2839-3221-e297": {
-			"type": "StatusBar",
-			"id": "04d7-8fc7-4d2d-64ff",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "a744-e9e4-ccc0-7492",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"4d6c-b572-29c4-b81f": {
-			"type": "HeaderBar",
-			"id": "d594-d96d-65bd-951c",
-			"userProps": {
-				"title": "pgMail"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar .my-statusbar",
+			"id": "04d7-8fc7-4d2d-64ff",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "a744-e9e4-ccc0-7492"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar .my-headerbar",
+			"id": "d594-d96d-65bd-951c",
+			"props": {
+				"children": [
+					"b19f-147e-bd6b-4330"
+				],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "a744-e9e4-ccc0-7492",
-				"children": [],
-				"title": "pgMail",
-				"visible": true,
-				"isRemovable": false
+				"title": "pgMail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgMail"
 			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout1",
+			"id": "b19f-147e-bd6b-4330",
+			"props": {
+				"children": [
+					"d076-dd48-9979-f985",
+					"e4e9-4f91-3493-1b9b",
+					"3393-755e-56b2-b43d"
+				],
+				"name": "flexLayout1",
+				"parent": "d594-d96d-65bd-951c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout2",
+			"id": "d076-dd48-9979-f985",
+			"props": {
+				"children": [
+					"7bd3-4942-4d44-5835"
+				],
+				"name": "flexLayout2",
+				"parent": "b19f-147e-bd6b-4330"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imageView3",
+			"id": "7bd3-4942-4d44-5835",
+			"props": {
+				"children": [],
+				"name": "imageView3",
+				"parent": "d076-dd48-9979-f985"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout3 #pgNotification-flexLayout3",
+			"id": "e4e9-4f91-3493-1b9b",
+			"props": {
+				"children": [
+					"d142-6aa6-87d5-407a"
+				],
+				"name": "flexLayout3",
+				"parent": "b19f-147e-bd6b-4330"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgNotification-label3",
+			"id": "d142-6aa6-87d5-407a",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "e4e9-4f91-3493-1b9b",
+				"text": "Messages"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Messages"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome-flexLayout4",
+			"id": "3393-755e-56b2-b43d",
+			"props": {
+				"children": [
+					"7c5f-3825-64be-c8ae"
+				],
+				"name": "flexLayout4",
+				"parent": "b19f-147e-bd6b-4330"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome-imageView2 #pgNotification-imageView2",
+			"id": "7c5f-3825-64be-c8ae",
+			"props": {
+				"children": [],
+				"name": "imageView2",
+				"parent": "3393-755e-56b2-b43d"
+			},
+			"type": "ImageView",
+			"userProps": {}
 		}
-	}
+	]
 }
