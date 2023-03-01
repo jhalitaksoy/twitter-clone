@@ -30,6 +30,66 @@
       "font": {
         "style": "Regular"
       }
+    },
+    "&-flexLayout14": {
+      "flexProps": {
+        "alignItems": "STRETCH"
+      },
+      "paddingLeft": 15,
+      "marginRight": 15,
+      "paddingBottom": 15,
+      "paddingTop": 30
+    },
+    "&-label5": {
+      "textAlignment": "MIDCENTER",
+      "font": {
+        "size": 22
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    },
+    "&-label6": {
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 104, 118, 132, 1 )",
+      "font": {
+        "style": "Regular",
+        "size": 16
+      }
+    },
+    "&-button1": {
+      "backgroundColor": {
+        "normal": "rgba( 76, 158, 235, 1 )",
+        "pressed": "rgba( 76, 158, 235, 1 )"
+      },
+      "width": 136,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "font": {
+        "size": 14
+      },
+      "marginTop": 15,
+      "height": 40,
+      "borderRadius": 20
+    },
+    "&-label4": {
+      "textColor": "rgba( 20, 22, 25, 1 )",
+      "font": {
+        "size": 19
+      },
+      "marginLeft": 15
+    },
+    "&-flexLayout15": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "backgroundColor": "rgba( 231, 236, 240, 1 )"
+    },
+    "&-flexLayout16": {
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "height": 300
+    },
+    "&-flexLayout17": {
+      "height": 1
     }
   }
 }

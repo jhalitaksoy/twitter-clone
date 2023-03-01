@@ -7,7 +7,8 @@
 			"props": {
 				"children": [
 					"205b-ded7-ea46-30cb",
-					"9865-1990-e110-6220"
+					"9865-1990-e110-6220",
+					"bd1e-cfcf-a13f-39c4"
 				],
 				"name": "pgSearch",
 				"orientation": "PORTRAIT",
@@ -160,6 +161,118 @@
 			},
 			"type": "ImageView",
 			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearch-flexLayout15",
+			"id": "bd1e-cfcf-a13f-39c4",
+			"props": {
+				"children": [
+					"69a7-295f-2aee-8d04"
+				],
+				"name": "flexLayout15",
+				"parent": "1800-f1b9-c016-8c1b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearch-flexLayout16",
+			"id": "69a7-295f-2aee-8d04",
+			"props": {
+				"children": [
+					"e40f-e7ce-e127-1df8",
+					"743c-cab1-15e3-6b5a",
+					"ebdd-0b73-a5b7-e38d"
+				],
+				"name": "flexLayout16",
+				"parent": "bd1e-cfcf-a13f-39c4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearch-label4",
+			"id": "e40f-e7ce-e127-1df8",
+			"props": {
+				"children": [],
+				"name": "label4",
+				"parent": "69a7-295f-2aee-8d04",
+				"text": "Trends for you"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Trends for you"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearch-flexLayout17 .line",
+			"id": "743c-cab1-15e3-6b5a",
+			"props": {
+				"children": [],
+				"name": "flexLayout17",
+				"parent": "69a7-295f-2aee-8d04"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearch-flexLayout14",
+			"id": "ebdd-0b73-a5b7-e38d",
+			"props": {
+				"children": [
+					"2435-3249-2625-93c6",
+					"822c-9eca-e3f4-243c",
+					"4a85-b3f4-a634-20b7"
+				],
+				"name": "flexLayout14",
+				"parent": "69a7-295f-2aee-8d04"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearch-label5",
+			"id": "2435-3249-2625-93c6",
+			"props": {
+				"children": [],
+				"name": "label5",
+				"parent": "ebdd-0b73-a5b7-e38d",
+				"text": "No new trends for you"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "No new trends for you"
+			}
+		},
+		{
+			"className": ".sf-label #pgSearch-label6",
+			"id": "822c-9eca-e3f4-243c",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "label6",
+				"parent": "ebdd-0b73-a5b7-e38d",
+				"text": "It seems like there’s not a lot to show you right now, but you can see trends for other areas"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "It seems like there’s not a lot to show you right now, but you can see trends for other areas"
+			}
+		},
+		{
+			"className": ".sf-button #pgSearch-button1",
+			"id": "4a85-b3f4-a634-20b7",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "ebdd-0b73-a5b7-e38d",
+				"text": "Change location"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Change location"
+			}
 		}
 	]
 }
